@@ -1,0 +1,39 @@
+{
+  "name": "generate-hash",
+  "version": "1.0.0",
+  "description": "Generate hash file.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "generate-hash": "./index.js"
+  },
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernilambar/generate-hash.git"
+  },
+  "keywords": [
+    "hash",
+    "generation"
+  ],
+  "author": "Nilambar Sharma <nilambar@outlook.com> (https://www.nilambar.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernilambar/generate-hash/issues"
+  },
+  "homepage": "https://github.com/ernilambar/generate-hash#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
