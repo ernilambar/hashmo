@@ -6,7 +6,7 @@ import { generateHash } from './src/app.js'
 const program = new Command()
 
 program
-  .name('generate-hash')
+  .name('hashmo')
   .usage('[options]')
   .description('Generate hash from current timestamp.')
   .addOption(new Option('-t, --type <type>', 'Output type').choices(['plaintext', 'php']).default('plaintext'))
