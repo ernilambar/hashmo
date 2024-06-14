@@ -16,7 +16,7 @@ program
   .action((options) => {
     generateHash(options)
   })
-  .version('1.0.2', '-v, --version', 'Output the current version.')
+  .version('1.0.3', '-v, --version', 'Output the current version.')
   .helpOption('-h, --help', 'Display help for command.')
 
 program.parse()

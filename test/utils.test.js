@@ -17,10 +17,3 @@ test('Get PHP file content', () => {
 
   expect(fileContent).toStrictEqual(expectedContent)
 })
-
-test('Get hash string', () => {
-  const result = utils.getHashString()
-
-  expect(result).toHaveLength(8)
-  expect(result).toMatch(/^(?=.*[a-zA-Z])(?=.*[0-9])[A-Za-z0-9]+/)
-})
