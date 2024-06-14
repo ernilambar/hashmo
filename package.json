@@ -1,6 +1,6 @@
 {
   "name": "hashmo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate hash file.",
   "main": "index.js",
   "type": "module",

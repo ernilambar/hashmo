@@ -27,7 +27,11 @@ const updateFile = (filename, content) => {
   })
 }
 
-const getHashString = () => {
+const getHashString = (isRaw) => {
+  if (isRaw) {
+    return Date.now().toString()
+  }
+
   return Number(Date.now()).toString(16)
 }
 
