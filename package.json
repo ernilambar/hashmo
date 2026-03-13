@@ -1,39 +1,52 @@
 {
   "name": "hashmo",
-  "version": "1.0.3",
-  "description": "Generate hash file.",
+  "version": "2.0.0",
+  "description": "CLI to write a file with a timestamp-based hash (plaintext, PHP, or JSON).",
+  "keywords": [
+    "hash",
+    "timestamp",
+    "cache-bust",
+    "cache-busting",
+    "cli",
+    "php",
+    "json",
+    "version",
+    "build",
+    "file"
+  ],
+  "files": [
+    "index.js",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "homepage": "https://github.com/ernilambar/hashmo#readme",
+  "bugs": {
+    "url": "https://github.com/ernilambar/hashmo/issues"
+  },
+  "license": "MIT",
+  "author": "Nilambar Sharma <nilambar@outlook.com> (https://github.com/ernilambar)",
   "main": "index.js",
   "type": "module",
   "bin": {
     "hashmo": "./index.js"
   },
-  "scripts": {
-    "lint": "standard",
-    "lint:fix": "standard --fix",
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ernilambar/hashmo.git"
   },
-  "keywords": [
-    "hash",
-    "generation"
-  ],
-  "author": "Nilambar Sharma <nilambar@outlook.com> (https://www.nilambar.net/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ernilambar/hashmo/issues"
-  },
-  "homepage": "https://github.com/ernilambar/hashmo#readme",
-  "devDependencies": {
-    "@babel/core": "^7.24.7",
-    "@babel/preset-env": "^7.24.7",
-    "babel-jest": "^29.7.0",
-    "jest": "^29.7.0",
-    "standard": "^17.1.0"
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "node --test"
   },
   "dependencies": {
-    "commander": "^12.1.0"
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
