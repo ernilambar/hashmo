@@ -2,7 +2,7 @@
 
 CLI to write a file with a timestamp-based hash (plaintext, PHP, or JSON).
 
-**Requires Node.js 20 or later.**
+**Requires Node.js 22 or later.**
 
 ## Install
 
